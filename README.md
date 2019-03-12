@@ -1,5 +1,5 @@
 # Multiplying-Sparse-Matrices-with-MapReduce
-There are two big sparse matrices M and N, compute the multiplication of them by using MapReduce. Matrices are stored with the following format: <br/> 
+There are two big sparse matrices M and N (each is 100k * 10k), compute the multiplication of them by using MapReduce. Matrices are stored with the following format: <br/> 
 <*i*><**TAB**><*j*><**TAB**><*m*<sub>*i*</sub><sub>*j*</sub>><br/>
 <*j*><**TAB**><*k*><**TAB**><*n*<sub>*j*</sub><sub>*k*</sub>><br/>
 If you want to install Hadoop cluster by yoursrlf, you can refer to my tutorial (https://zhuanlan.zhihu.com/p/58968191)<br/>
