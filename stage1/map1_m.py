@@ -4,4 +4,4 @@ import sys
 for line in sys.stdin:
   line = line.strip()
   records = line.split('\t')
-  print '%s\t%s\t%s\t%s' % (record[1], 'm', record[0], record[2])
+  print '%s\t%s\t%s\t%s' % (records[1], 'm', records[0], records[2])
